@@ -6,13 +6,17 @@ gem 'gravatar_image_tag', '0.1.0'
 gem 'will_paginate'
 
 group :development do
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-core'
+  gem 'rspec-rails'
   gem 'annotate'
   gem 'faker', '0.3.1'
 end
 
 group :test do
-  gem 'rspec', '2.0.1'
+  gem 'rspec-core'
+  gem 'rspec'
+  gem 'nokogiri' # required for installing webrat gem
+  gem 'webrat'  
   gem 'autotest'
   gem 'autotest-rails-pure'
   gem 'test_notifier'  
