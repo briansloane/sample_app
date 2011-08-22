@@ -16,7 +16,7 @@ group :test do
   gem 'rspec-core'
   gem 'rspec'
   gem 'nokogiri' # required for installing webrat gem
-  gem 'webrat'  
+  gem 'webrat', "0.7.1"  
   gem 'autotest'
   gem 'autotest-rails-pure'
   gem 'test_notifier'  
